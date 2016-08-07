@@ -1,2 +1,0 @@
-# rinrin
-Printing Service Project
