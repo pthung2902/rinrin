@@ -1,0 +1,860 @@
+.loginContainer a{text-decoration:none;}
+.loginContainer .txt-rt{text-align:right;}/* text align right */
+.loginContainer .txt-lt{text-align:left;}/* text align left */
+.loginContainer .txt-center{text-align:center;}/* text align center */
+.loginContainer .float-rt{float:right;}/* float right */
+.loginContainer .float-lt{float:left;}/* float left */
+.loginContainer .clear{clear:both;}/* clear float */
+.loginContainer .pos-relative{position:relative;}/* Position Relative */
+.loginContainer .pos-absolute{position:absolute;}/* Position Absolute */
+.loginContainer .vertical-base{ vertical-align:baseline;}/* vertical align baseline */
+.loginContainer.vertical-top{  vertical-align:top;}/* vertical align top */
+.loginContainer.underline{ padding-bottom:5px; border-bottom: 1px solid #eee; margin:0 0 20px 0;}/* Add 5px bottom padding and a underline */
+.loginContainer nav.vertical ul li{ display:block;}/* vertical menu */
+.loginContainer nav.horizontal ul li{   display: inline-block;}/* horizontal menu */
+.loginContainer .logo-top h1 {
+    font-size: 2.4em;
+    color: #fff;
+    text-align: center;
+    font-family: 'PoiretOne-Regular';
+}
+
+.loginContainer {
+    background: #16214d;
+    padding-top:1%;
+}
+
+.loginContainer h1 {
+    font-family: 'SourceSansPro-Regular';
+}
+
+.loginContainer  .logo-bottom {
+    margin-top: 8.5%;
+}
+.loginContainer  .head {
+    width: 50%;
+    margin: 8% auto 0;
+    background: #fff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+}
+
+.loginContainer  .logo {
+    width: 45%;
+    float: left;
+    background: #44c7f4;
+    padding: 11.57% 0;
+}
+
+.loginContainer  .login {
+    width: 55%;
+    float: right;
+    padding: 4% 0;
+    background:#fff;
+}
+
+.loginContainer .login input[type="text"], .loginContainer  .login input[type="password"] {
+    outline: none;
+    font-size: 16px;
+    color: #cecfd3;
+    padding: 20px 30px 10px 10px;
+    margin: 0;
+    width: 89.87%;
+    border: none;
+    border-bottom: 2px solid #cecfd3;
+    -webkit-appearance: none;
+}
+.loginContainer  .login input.name {
+    background: url(../images/l1.png) no-repeat 98% 67%;
+}
+
+.loginContainer  .login input.email {
+    background: url(../images/l2.png) no-repeat 98% 67%;
+}
+
+.loginContainer  .login input.password {
+    background: url(../images/l3.png) no-repeat 98% 67%;
+}
+
+.loginContainer  .login-top {
+    padding: 0px 25px;
+    margin-top: 3%;
+}
+
+.loginContainer  .submit{
+    float:left;
+}
+
+.loginContainer  .login-bottom ul{
+    padding:0;
+    float:right;
+}
+
+.loginContainer  .login-bottom ul li{
+    list-style:none;
+    display:inline-block;
+    vertical-align: middle;
+    margin-left: 16px;
+}
+
+.loginContainer  .login-bottom ul li p{
+    color:#b7b9c6;
+    font-size:15px;
+}
+
+.loginContainer  .login-bottom ul li span{
+    background:url(../images/social.png) no-repeat;
+    width:34px;
+    height:34px;
+    display:block;
+}
+
+.loginContainer .login-bottom ul li span:hover{
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+.loginContainer .login-bottom ul li span.fb{
+    background-position:0px 0px;
+}
+
+.loginContainer  .login-bottom ul li span.twit{
+    background-position:-34px 0px;
+}
+
+.loginContainer  .login-bottom ul li span.google{
+    background-position:-68px 0px;
+}
+
+.loginContainer  .login-bottom {
+    margin-top: 17%;
+}
+
+.loginContainer  .login-bottom1{
+    margin-top: 28%;
+}
+
+.loginContainer  .submit input[type="submit"] {
+    font-size: 13px;
+    color: #44c7f4;
+    background: #fff;
+    border: 2px solid #44c7f4;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -o-border-radius: 20px;
+    -ms-border-radius: 20px;
+    padding: 6px 13px;
+    font-family: 'SourceSansPro-Regular';
+}
+
+.loginContainer  .submit input[type="submit"]:hover{
+    background:#44c7f4;
+    color:#fff;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+}
+
+/* radios and checkboxes */
+.loginContainer  .row1{
+    outline:none;
+    padding: 20px;
+    overflow: auto;
+    height: 200px;
+}
+
+.loginContainer  .sky-form.col.col-4 ul {
+padding: 0;
+list-style: none;
+}
+
+.loginContainer .sky-form h4{
+    margin-top: 10px;
+    background: #ECECEC;
+    padding: 10px 20px;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size:16px;
+}
+
+.loginContainer  .sky-form section {
+    margin-bottom: 20px;
+}
+
+.loginContainer  .sky-form .label {
+    display: block;
+    margin-bottom: 6px;
+    line-height: 19px;
+}
+
+.loginContainer .sky-form .label.col {
+    margin: 0;
+    padding-top: 10px;
+}
+
+.loginContainer .sky-form .input,
+.loginContainer .sky-form .select,
+.loginContainer .sky-form .textarea,
+.loginContainer .sky-form .radio,
+.loginContainer .sky-form .checkbox,
+.loginContainer .sky-form .toggle,
+.loginContainer .sky-form .button {
+    position: relative;
+    display: block;
+}
+/* selects */
+.loginContainer  .sky-form .select i {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 1px;
+    height: 11px;
+    background: #fff;
+    box-shadow: 0 0 0 12px #fff;
+}
+.loginContainer  .sky-form .select i:after,
+.loginContainer  .sky-form .select i:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+.loginContainer .sky-form .select i:after {
+    bottom: 0;
+    border-top: 4px solid #404040;
+}
+
+.loginContainer  .sky-form .select i:before {
+    top: 0;
+    border-bottom: 4px solid #404040;
+}
+.loginContainer .sky-form .select-multiple select {
+    height: auto;
+}
+/* radios and checkboxes */
+.loginContainer .sky-form .radio {
+    outline:none;
+    border:none;
+    margin-bottom: 7px;
+    padding-left: 22px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 0;
+}
+.loginContainer .sky-form .radio:last-child,
+.loginContainer .sky-form .checkbox:last-child {
+    margin-bottom: 0;
+}
+.loginContainer .sky-form .radio input,
+.loginContainer .sky-form .checkbox input {
+    position: absolute;
+    left: -9999px;
+}
+.loginContainer .sky-form .radio i{
+    position: absolute;
+    top: 6px;
+    left: 0;
+    display: block;
+    width: 10px;
+    height: 10px;
+    outline: none;
+    border-width: 2px;
+    border-style: solid;
+}
+.loginContainer .sky-form .radio i {
+    border-radius: 50%;
+}
+.loginContainer .sky-form .radio input + i:after{
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.1s;
+    -o-transition: opacity 0.1s;
+    -ms-transition: opacity 0.1s;
+    -moz-transition: opacity 0.1s;
+    -webkit-transition: opacity 0.1s;
+}
+.loginContainer .sky-form .radio input + i:after {
+    content: '';
+    top: 3px;
+    left: 3px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+}
+.loginContainer  .sky-form .checkbox input + i:after {
+    content: '';
+    top: 3px;
+    left: 2px;
+    width: 10px;
+    height: 7px;
+    background: url(../images/tick.png) no-repeat;
+    text-align: center;
+}
+
+.loginContainer .sky-form .radio input:checked + i:after,
+.loginContainer .sky-form .checkbox input:checked + i:after {
+    opacity: 1;
+}
+
+.loginContainer .sky-form .inline-group {
+    margin: 0 -30px -4px 0;
+}
+
+.loginContainer .sky-form .inline-group:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.loginContainer .sky-form .inline-group .radio{
+    float: left;
+    margin-right: 30px;
+}
+
+.loginContainer  .sky-form .inline-group .radio:last-child{
+    margin-bottom: 4px;
+}
+/* icons */
+
+.loginContainer .sky-form [class^="icon-"] {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+}
+/* normal state */
+.loginContainer .sky-form .input input,
+.loginContainer .sky-form .select select,
+.loginContainer .sky-form .textarea textarea,
+.loginContainer .sky-form .radio i,
+.loginContainer .sky-form .checkbox i,
+.loginContainer .sky-form .toggle i,
+.loginContainer .sky-form .icon-append,
+.loginContainer .sky-form .icon-prepend {
+    border-color: #fff;
+    transition: border-color 0.3s;
+    -o-transition: border-color 0.3s;
+    -ms-transition: border-color 0.3s;
+    -moz-transition: border-color 0.3s;
+    -webkit-transition: border-color 0.3s;
+}
+
+.loginContainer .sky-form .toggle i:before {
+    background-color: #fff; 
+}
+/* hover state */
+.loginContainer .sky-form .input:hover input,
+.loginContainer .sky-form .select:hover select,
+.loginContainer .sky-form .textarea:hover textarea,
+.loginContainer .sky-form .radio:hover i,
+.loginContainer .sky-form .checkbox:hover i,
+.loginContainer .sky-form .toggle:hover i {
+    border-color: #fff;
+}
+.loginContainer .sky-form .button:hover {
+    opacity: 1;
+}
+/* focus state */
+.loginContainer .sky-form .input input:focus,
+.loginContainer .sky-form .select select:focus,
+.loginContainer .sky-form .textarea textarea:focus,
+.loginContainer .sky-form .radio input:focus + i,
+.loginContainer .sky-form .checkbox input:focus + i,
+.loginContainer .sky-form .toggle input:focus + i {
+    border-color: #fff;
+}
+/* checked state */
+.loginContainer .sky-form .radio input + i:after {
+    background-color: #fff; 
+}
+.loginContainer .sky-form .checkbox input + i:after {
+    color: #fff;
+}
+.loginContainer .sky-form .radio input:checked + i,
+.loginContainer .sky-form .checkbox input:checked + i,
+.loginContainer .sky-form .toggle input:checked + i {
+    border-color: #fff;
+}
+/* error state */
+.loginContainer .sky-form .state-error input,
+.loginContainer .sky-form .state-error select,
+.loginContainer .sky-form .state-error textarea,
+.loginContainer .sky-form .radio.state-error i,
+.loginContainer .sky-form .checkbox.state-error i,
+.sky-form .toggle.state-error i {
+    background: #fff;
+}
+/* success state */
+.loginContainer .sky-form .state-success input,
+.loginContainer .sky-form .state-success select,
+.loginContainer .sky-form .state-success textarea,
+.loginContainer .sky-form .radio.state-success i,
+.loginContainer .sky-form .checkbox.state-success i,
+.sky-form .toggle.state-success i {
+    background: #fff;
+}
+/* disabled state */
+.loginContainer .sky-form .input.state-disabled input,
+.loginContainer .sky-form .select.state-disabled,
+.loginContainer .sky-form .textarea.state-disabled,
+.loginContainer .sky-form .radio.state-disabled,
+.loginContainer .sky-form .checkbox.state-disabled,
+.loginContainer .sky-form .toggle.state-disabled,
+.loginContainer .sky-form .button.state-disabled {
+    cursor: default;
+    opacity: 0.5;
+}
+.loginContainer .sky-form .input.state-disabled:hover input,
+.loginContainer .sky-form .select.state-disabled:hover select,
+.loginContainer .sky-form .textarea.state-disabled:hover textarea,
+.loginContainer .sky-form .radio.state-disabled:hover i,
+.loginContainer .sky-form .checkbox.state-disabled:hover i,
+.loginContainer .sky-form .toggle.state-disabled:hover i {
+    border-color: #e5e5e5;
+}
+.loginContainer section.sky-form {
+    margin-left: 16%;
+}
+/******** SAP ************/
+.loginContainer .sap_tabs{
+    clear:both;
+}
+.loginContainer .tab_box{
+    background:#fd926d;
+    padding: 2em;
+}
+.loginContainer .top1{
+    margin-top: 2%;
+}
+.loginContainer .resp-tabs-list {
+    list-style: none;
+    padding-left: 19px;
+    text-align: left;
+}
+.loginContainer .resp-tab-item {
+    color: #d8dcdf;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0px 0px;
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    list-style: none;
+    outline: none;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    margin: 0 5px;
+}
+.loginContainer .resp-tab-active {
+    text-shadow: none;
+    color: #44c7f4;
+}
+.loginContainer .resp-tabs-container {
+    padding: 0px;
+    background-color: #fff;
+    clear: left;
+}
+.loginContainer h2.resp-accordion {
+    cursor: pointer;
+    padding: 5px;
+    display: none;
+}
+.loginContainer .resp-tab-content {
+    display: none;
+}
+.loginContainer .loginContainer .resp-content-active, .loginContainer  .resp-accordion-active {
+   display: block;
+}
+.loginContainer .resp-tab-item label{
+    margin-right:8px;
+}
+/*-----------------*/
+.loginContainer .account ul {
+    padding: 0;
+    width: 17%;
+    margin: 1% auto 0;
+}
+.loginContainer .account ul li{
+    list-style:none;
+    display:inline-block;
+}
+.loginContainer .account ul li p {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.65);
+}
+.loginContainer .account ul li p a{
+    color:#fff;
+}
+.loginContainer .account ul li p a:hover{
+    color:#44c7f4;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.loginContainer .account ul span {
+    margin-left: 23px;
+    vertical-align: top;
+    display: inline-block;
+    color: #fff;
+    font-size: 13px;
+}
+.loginContainer .account ul li:nth-child(1){
+    float:left;
+}
+.loginContainer .account ul li:nth-child(3){
+    float:right;
+}
+.loginContainer .footer {
+    text-align: center;
+    margin-top: 10%;
+}
+.loginContainer .footer p{
+    font-size:16px;
+    color:#fff;
+}
+.loginContainer .footer p a{
+    color:#fff;
+}
+.loginContainer .footer p a:hover{
+    text-decoration:none;
+    color:#44c7f4;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+/*--meadia-quiries-start-here--*/
+@media(max-width:1440px){
+.loginContainer .logo {
+    padding: 12.1% 0;
+}
+.loginContainer .account ul span {
+    margin-left: 22px;
+}
+.loginContainer .account ul {
+    width: 19%;
+}
+.loginContainer .login input[type="text"], .login input[type="password"] {
+    width: 88.4%;
+}
+}
+@media(max-width:1366px){
+.loginContainer .loginContainer .logo-top h1 {
+    font-size: 2.25em;
+}
+.loginContainer.head {
+    width: 52%;
+    margin: 10.5% auto 0;
+ }
+.loginContainer .logo-top {
+    margin-top: 1.1%;
+}
+.loginContainer .footer {
+    margin-top: 6%;
+}
+.loginContainer .logo {
+    padding: 12.15% 0;
+}
+.loginContainer .login input[type="text"], .loginContainer login input[type="password"] {
+    width: 88.3%;
+}
+}
+@media(max-width:1280px){
+.logo-top h1 {
+    font-size: 2.05em;
+}
+
+.loginContainer .login input[type="text"], .loginContainer .login input[type="password"] {
+    font-size: 15px;
+    padding: 18px 27px 10px 10px;
+ }
+.loginContainer.submit input[type="submit"] {
+    font-size: 12px;
+ }
+.loginContainer.login-bottom ul li {
+    margin-left: 9px;
+ }
+.loginContainer section.sky-form {
+    margin-left: 10%;
+}
+.loginContainer .sky-form .radio {
+    font-size: 15px;
+}
+.loginContainer .account ul {
+    width: 21.38%;
+}
+.loginContainer .footer {
+    margin-top: 11%;
+}
+.loginContainer .head {
+    margin: 11.5% auto 0;
+}
+}
+@media(max-width:1024px){
+.loginContainer .logo-top h1 {
+    font-size: 2em;
+}
+.loginContainer .head {
+    margin: 16% auto 0;
+    width: 65%;
+}
+.loginContainer .login-bottom ul li {
+    margin-left: 3px;
+}
+.loginContainer section.sky-form {
+    margin-left: 13.5%;
+}
+.loginContainer .account ul {
+    width: 26.38%;
+}
+.loginContainer .footer {
+    margin-top: 14%;
+}
+}
+@media(max-width:768px){
+.loginContainer .head {
+    margin: 23% auto 0;
+    width: 80%;
+}
+.loginContainer .submit input[type="submit"] {
+    padding: 4px 13px;
+}
+.loginContainer.logo-top h1 {
+    font-size: 1.9em;
+}
+.loginContainer.login input[type="text"], .login input[type="password"] {
+    font-size: 14px;
+    padding: 16px 23px 10px 10px;
+}
+.loginContainer.login-bottom ul li p {
+    font-size: 14px;
+}
+.loginContainer.login-bottom ul li span {
+    width: 31px;
+    height: 31px;
+    background-size: 300%;
+}
+.loginContainer.login-bottom ul li span.twit {
+    background-position: -31px 0px;
+}
+.loginContainer.login-bottom ul li span.google {
+    background-position: -62px 0px;
+}
+.loginContainer.account ul {
+    width: 35%;
+}
+.loginContainer.account ul span {
+    margin-left: 20px;
+}
+.loginContainer.footer p {
+    font-size: 15px;
+}
+.loginContainer.footer {
+    margin-top: 23%;
+}
+}
+@media(max-width:640px){
+.loginContainer.logo-top h1 {
+    font-size: 1.75em;
+}
+.loginContainer.login input[type="text"], .loginContainer.login input[type="password"] {
+    width: 87.6%;
+}
+.loginContainer section.sky-form {
+    margin-left: 10%;
+}
+.loginContainer.login-top {
+    padding: 0px 20px;
+    margin-top: 3%;
+}
+.loginContainer.submit input[type="submit"] {
+    font-size: 11px;
+    padding: 4px 11px;
+}
+.loginContainer.login-bottom ul li p {
+    font-size: 13px;
+}
+.loginContainer.login-bottom ul li span {
+    width: 29px;
+    height: 29px;
+}
+.loginContainer.login-bottom ul li span.twit {
+    background-position: -29px 0px;
+}
+.loginContainer.login-bottom ul li span.google {
+    background-position: -58px 0px;
+}
+.loginContainer.login-bottom ul li {
+    margin-left: 1px;
+}
+.loginContainer.head {
+    margin: 29% auto 0;
+    width: 87%;
+}
+.loginContainer.sky-form .radio {
+    font-size: 14px;
+}
+.loginContainer.sky-form .radio i {
+    width: 9px;
+    height: 9px;
+}
+.loginContainer.sky-form .radio {
+    padding-left: 18px;
+}
+.loginContainer.login-bottom {
+    margin-top: 15.7%;
+}
+.loginContainer.account ul {
+    width: 42%;
+    margin: 2.5% auto 0;
+}
+.loginContainer.footer {
+    margin-top: 37%;
+}
+.loginContainer.login input.name {
+    background: url(../images/l1.png) no-repeat 98% 60%;
+    background-size: 5%;
+}
+.loginContainer.login input.email {
+    background: url(../images/l2.png) no-repeat 98% 60%;
+    background-size: 5%;
+}
+.loginContainer.login input.password {
+    background: url(../images/l3.png) no-repeat 98% 60%;
+    background-size: 5%;
+}
+}
+@media(max-width:480px){
+.loginContainer .logo {
+    padding: 7% 0;
+    width: 100%;
+}
+.loginContainer.submit input[type="submit"] {
+    font-size: 12px;
+}
+.loginContainer.login input.name {
+    background: url(../images/l1.png) no-repeat 99% 60%;
+    background-size: 4.5%;
+}
+.loginContainer.login input.email {
+    background: url(../images/l2.png) no-repeat 99% 60%;
+    background-size: 4.5%;
+}
+.loginContainer.login input.password {
+    background: url(../images/l3.png) no-repeat 99% 60%;
+    background-size: 4.5%;
+}
+.loginContainer.logo-bottom {
+    margin-top: 4.5%;
+}
+.loginContainer section.sky-form {
+    margin-left: 27%;
+}
+.loginContainer .login {
+    width: 100%;
+    padding: 8% 0;
+}
+.loginContainer.login-bottom {
+    margin-top: 12.7%;
+}
+.loginContainer.account ul {
+    width: 57.8%;
+    margin: 3.5% auto 0;
+}
+.loginContainer.footer {
+    margin-top: 14%;
+}
+.loginContainer.footer p {
+    font-size: 14px;
+}
+.loginContainer.head {
+    margin: 20% auto 0;
+}
+}
+@media(max-width:320px){
+.loginContainer.logo-top h1 {
+    font-size: 1.55em;
+}
+.loginContainersection.sky-form {
+    margin-left: 14%;
+}
+.loginContainer.login input.name {
+    background: url(../images/l1.png) no-repeat 98.5% 60%;
+    background-size: 5%;
+}
+.loginContainer.login input.email {
+    background: url(../images/l2.png) no-repeat 98.5% 60%;
+    background-size: 5%;
+}
+.loginContainer.login input.password {
+    background: url(../images/l3.png) no-repeat 98.5% 60%;
+    background-size: 5%;
+}
+.loginContainer.sky-form .radio {
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+.loginContainer.resp-tab-item {
+    font-size: 16px;
+}
+.loginContainer.login input[type="text"], .login input[type="password"] {
+    font-size: 11px;
+    padding: 15px 17px 6px 10px;
+}
+.loginContainer.account ul li p {
+    font-size: 12px;
+}
+.loginContainer.account ul span {
+    margin-left: 15px;
+}
+.loginContainer.account ul {
+    width: 80%;
+    margin: 4% auto 0;
+}
+.loginContainer.footer p {
+    line-height: 1.6em;
+}
+.loginContainer.login-bottom ul li p {
+    font-size: 12px;
+}
+.loginContainer.login-bottom ul li span {
+    width: 25px;
+    height: 25px;
+}
+.loginContainer.login-bottom ul li span.google {
+    background-position: -50px 0px;
+}
+.loginContainer.login-bottom ul li span.twit {
+    background-position: -25px 0px;
+}
+.loginContainer.head {
+    margin: 15% auto 0;
+}
+.loginContainer.submit input[type="submit"] {
+    font-size: 11px;
+    padding: 3px 11px;
+}
+}

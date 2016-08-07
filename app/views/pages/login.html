@@ -1,0 +1,82 @@
+<div class="loginContainer" ng-controller="LoginCtrl">
+    <div class="head">
+        <div class="logo">
+            <div class="logo-top">
+                <h1>RinRin The Easiest Way To Print Your Document </h1>
+            </div>
+            <div class="logo-bottom">
+                <section class="sky-form">                                  
+                    <label class="radio"><input type="radio" name="radio"><i></i>File managment</label>
+                    <label class="radio"><input type="radio" name="radio"><i></i>Fast & Convenience</label>                                        
+                    <label class="radio"><input type="radio" name="radio"><i></i>24/7 Support </label>
+                </section>
+            </div>
+        </div>      
+        <div class="login">
+            <div class="sap_tabs">
+                <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+                    <ul class="resp-tabs-list">
+                        <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>Login</span></li>
+                        <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><label>/</label><span>Sign up</span></li>
+                        <div class="clearfix"></div>
+                    </ul>                    
+                    <div class="resp-tabs-container">
+                        <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+                            <div class="login-top">
+                                <form>
+                                    <input type="text" class="email" placeholder="Email" required="" ng-model="email"/>
+                                    <input type="password" class="password" placeholder="Password" required="" ng-model="password"/>        
+                                </form>
+                                <div class="login-bottom login-bottom1">
+                                    <div class="submit">
+                                        <input type="submit" ng-click="login()" value="LOGIN"/>
+                                    </div>
+                                    <ul>
+                                        <li><p>Or login with</p></li>
+                                        <li><a href="#"><span class="fb"></span></a></li>
+                                        <li><a href="#"><span class="twit"></span></a></li>
+                                        <li><a href="#"><span class="google"></span></a></li>
+                                    </ul>
+                                    <div class="clear"></div>
+                                </div>  
+                            </div>
+                        </div>
+                        <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+                        <div class="login-top">
+                                <form>
+                                    <input type="text" class="email" placeholder="Email" required="" ng-model="emailSignUp"/>
+                                    <input type="password" class="password" placeholder="Password" required="" ng-model="passwordSignUp"/>
+                                    <input type="text" class="name active" placeholder="Your Name" required="" ng-model="yourName"/>
+                                    <input type="text" class="name active" placeholder="Phone number" required="" ng-model="phoneNumber"/>
+                                </form>
+                                <div class="login-bottom">
+                                    <div class="submit">
+                                        <input type="submit" ng-click="signup()" value="SIGN UP"/>
+                                    </div>
+                                    <ul>
+                                        <li><p>Or login with</p></li>
+                                        <li><a href="#"><span class="fb"></span></a></li>
+                                        <li><a href="#"><span class="twit"></span></a></li>
+                                        <li><a href="#"><span class="google"></span></a></li>
+                                    </ul>
+                                    <div class="clear"></div>
+                                </div>  
+                            </div>
+                        </div>                  
+                    </div>  
+                </div>
+            </div>  
+        </div>  
+        <div class="clear"></div>
+    </div>  
+    <div class="account">
+            <ul>
+                <li><p>Don't have an <a href="#">account?</a></p></li><span>/</span>
+                <li><p>Forgot <a href="#">password?</a></p></li>
+                <div class="clear"></div>
+            </ul>
+        </div>
+    <div class="footer">
+    </div>
+
+</div>
