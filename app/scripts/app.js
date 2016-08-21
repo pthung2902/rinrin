@@ -95,7 +95,13 @@ angular
         templateUrl: 'views/ui-elements/grid.html',
         controller: 'MainCtrl',
         controllerAs: 'main'
-      })        
+      })
+
+       .when('/dashboard/register', {
+        templateUrl: 'views/pages/store-register.html',
+        controller: 'StoreRegisterCtrl',
+        controllerAs: 'storeRegisterCtrl'
+      })          
 
       .otherwise({
         redirectTo: '/'

@@ -22,6 +22,9 @@
     <link rel="stylesheet" href="styles/admin/timeline.css">
     <link rel="stylesheet" href="styles/login.css">
     <link rel="stylesheet" href="styles/loadingscreen.css">
+    <link rel="stylesheet" href="styles/custom-style.css">
+    <link rel="stylesheet" href="bower_components/tingle/dist/tingle.min.css" />
+
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <!-- endbuild -->
   </head>
@@ -97,6 +100,8 @@
        ga('send', 'pageview');
     </script>
 
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyC9t1rNH1jeCA7-rJRJCn9-PJU6XE8bBto&libraries=places"></script>
+
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
@@ -118,7 +123,7 @@
     <script src="bower_components/angular-chart.js/dist/angular-chart.js"></script>
     <script src="bower_components/firebase/firebase.js"></script>
     <script src="bower_components/angularfire/dist/angularfire.js"></script>
-    <script src="bower_components/md5/dist/md5.min.js"></script>
+    <script src="bower_components/md5/src/md5.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -127,6 +132,7 @@
         <script src="scripts/app.js"></script>
 
         <!-- service -->
+        <script src="scripts/services/backendService.js"></script>
         <script src="scripts/services/authService.js"></script>
         <script src="scripts/services/userService.js"></script>
         <script src="scripts/services/utility.js"></script>
@@ -136,6 +142,7 @@
         <script src="scripts/controllers/chartContoller.js"></script>
         <script src="scripts/controllers/HomeController.js"></script>
         <script src="scripts/controllers/loginController.js"></script>
+        <script src="scripts/controllers/storeRegisterController.js"></script>
 
         <!--directive -->
         <script src="scripts/directives/navs/navdirective.js"></script>
@@ -150,9 +157,12 @@
         <script src="scripts/directives/notifications/notifications.js"></script>
         <script src="scripts/directives/chat/chat.js"></script>
         <script src="scripts/directives/dashboard/stats/stats.js"></script>
+        <script src="scripts/directives/ggPlace/ggPlace.js"></script>
 
         <!--third party -->
         <script src="scripts/thirdparty/easyResponsiveTabs.js"></script>
+        <script src="scripts/thirdparty/jquery.colorbox-min.js"></script>
+        <script src="bower_components/tingle/dist/tingle.min.js"></script>
         
         
         <!-- endbuild -->

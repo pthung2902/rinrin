@@ -1,0 +1,283 @@
+
+
+$gray-base:     #999999;
+$brand-primary: #3498DB; //Zen Blue
+$outline-width: 0;
+$break-point: 500px;
+
+.section-header {
+  color: $brand-primary;
+  font-weight: 400;
+  font-size: 1.4em;
+}
+
+
+.steps-header {
+  @extend .section-header;
+  margin-bottom: 20px;  
+  text-align: center;
+}
+.steps-timeline {
+  outline: 1px dashed rgba(red, $outline-width);
+  
+  @media screen and (max-width: $break-point) {
+    border-left: 2px solid $brand-primary;
+    margin-left: 25px;
+  }
+  
+  @media screen and (min-width: $break-point) {
+    border-top: 2px solid $brand-primary;
+    padding-top: 20px;
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-right: 16.65%;
+  }
+  
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+.steps-one,
+.steps-two,
+.steps-three {
+  outline: 1px dashed rgba(green, $outline-width);
+  
+  @media screen and (max-width: $break-point) {
+    margin-left: -25px;
+  }
+  
+  @media screen and (min-width: $break-point) {
+    float: left;
+    width: 33%;  
+    margin-top: -50px;
+  }
+}
+.steps-one,
+.steps-two {
+  @media screen and (max-width: $break-point) {
+    padding-bottom: 40px;
+  }
+}
+.steps-one {
+  @media screen and (min-width: $break-point) {
+    margin-left: -16.65%;
+    margin-right: 16.65%;
+  }
+}
+.steps-two {
+  
+}
+.steps-three {
+  @media screen and (max-width: $break-point) {
+    margin-bottom: -100%;
+  }
+  @media screen and (min-width: $break-point) {
+    margin-left: 16.65%;
+    margin-right: -16.65%;
+  }
+}
+
+.steps-img {
+  display: block;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; 
+  
+  @media screen and (max-width: $break-point) {
+    float: left;
+    margin-right: 20px;
+  }
+}
+
+.steps-name,
+.steps-description {
+  margin: 0;
+}
+.steps-name {
+  @extend .section-header;
+  
+  @media screen and (min-width: $break-point) {
+    text-align: center;
+  }
+}
+.steps-description {
+  overflow: hidden;
+  
+  @media screen and (min-width: $break-point) {
+    text-align: center;
+  }
+ }
+
+#carousel1 .nav a small {
+    display: block;
+}
+#carousel1 .nav {
+    background: #eee;
+}
+.custom-carousel .nav-justified > li > a {
+    border-radius: 0px;
+}
+.custom-carousel .nav-pills > li[data-slide-to="0"].active a {
+    background-color: #b4d9a7;
+}
+.custom-carousel .nav-pills > li[data-slide-to="1"].active a {
+    background-color: #4f77cb;
+}
+.custom-carousel .nav-pills > li[data-slide-to="2"].active a {
+    background-color: #d11e4f;
+}
+
+.carousel-caption-custom{
+    color: #29d !important;
+    text-shadow:none !important;    
+}
+
+.register-header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px !important;
+    color: #36A0FF;
+}
+
+.big-height{
+    height : 70px !important;
+}
+
+.big-font{
+    font-size : 1.8em !important;
+}
+
+.white-background{
+    background-color : #fff;    
+}
+
+.checkbox label:after, 
+.radio label:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.checkbox .cr,
+.radio .cr {
+    position: relative;
+    display: inline-block;
+    border: 2px solid #36a0fd;
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em;
+    color: #36a0fd;
+}
+
+.radio .cr {
+    border-radius: 75%;
+    border-color: green;
+}
+
+.checkbox .cr .cr-icon,
+.radio .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 20%;
+}
+
+.radio .cr .cr-icon {
+    margin-left: 0.04em;
+}
+
+.checkbox label input[type="checkbox"],
+.radio label input[type="radio"] {
+    display: none;
+}
+
+.checkbox label input[type="checkbox"] + .cr > .cr-icon,
+.radio label input[type="radio"] + .cr > .cr-icon {
+    transform: scale(3) rotateZ(-220deg);
+    opacity: 0;
+    transition: all .7s ease-in;
+}
+
+.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
+.radio label input[type="radio"]:checked + .cr > .cr-icon {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+}
+
+.checkbox label input[type="checkbox"]:disabled + .cr,
+.radio label input[type="radio"]:disabled + .cr {
+    opacity: .5;
+}
+
+    .displaystyle {
+    padding: 15px;
+    margin: 15px;
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+    box-shadow: 5px 7px 7px 5px rgba(0, 0, 0, 0.19), 10px 12px 20px 10px rgba(0, 0, 0, 0.19);
+}
+.displaystyle-fullborder {
+    padding: 15px;
+    margin: 15px;
+    background-color: #FFFFFF;
+    border: 3px solid #7f7f84;
+    margin-bottom: 10px;
+    box-shadow: 5px 7px 7px 5px rgba(0, 0, 0, 0.19), 10px 12px 20px 10px rgba(0, 0, 0, 0.19);
+}
+.displaystyle-rightborder {
+    padding: 15px;
+    margin: 15px;
+    background-color: #FFFFFF;
+    border-right: 9px solid ;
+    margin-bottom: 10px;
+    box-shadow: 5px 7px 7px 5px rgba(0, 0, 0, 0.19), 10px 12px 20px 10px rgba(0, 0, 0, 0.19);
+}
+.displaystyle-leftborder {
+    padding: 15px;
+    margin: 15px;
+    background-color: #FFFFFF;
+    border-left: 9px solid ;
+    margin-bottom: 10px;
+    box-shadow: 5px 7px 7px 5px rgba(0, 0, 0, 0.19), 10px 12px 20px 10px rgba(0, 0, 0, 0.19);
+}
+
+.displaystyle-sm {
+    padding: 10px;
+    font-size: 80%;
+}
+.displaystyle-lg {
+    padding: 35px;
+    font-size: large;
+}
+.displaystyle-success {
+    border-color: #80D651;
+}
+.displaystyle-success>strong {
+    color: #80D651;
+}
+.displaystyle-info {
+    border-color: #45ABCD;
+}
+.displaystyle-info>strong {
+    color: #45ABCD;
+}
+.displaystyle-warning {
+    border-color: #FEAF20;
+}
+.displaystyle-warning>strong {
+    color: #FEAF20;
+}
+.displaystyle-danger {
+    border-color: #d73814;
+}
+.displaystyle-danger>strong {
+    color: #d73814;
+}

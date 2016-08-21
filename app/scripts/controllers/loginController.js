@@ -16,22 +16,37 @@ angular.module('rinrinApp')
   	$scope.login = function(){
   		
   		//var username = 
-  		//console.log('email: ' + $scope.email);
-  		//console.log('password :' + $scope.password);
+  		console.log('email: ' + $scope.email);
+  		console.log('password :' + $scope.password);
 
   		utilityService.showLoading('.loginContainer');
+  		userService.login($scope.email, $scope.password);
+
   	};
 
   	$scope.signup = function(){
 
-  		console.log('email: ' + $scope.emailSignUp);
+  		/*console.log('email: ' + $scope.emailSignUp);
   		console.log('password :' + $scope.passwordSignUp);
   		console.log('your name :' + $scope.yourName);
-  		console.log('phone number :' + $scope.phoneNumber);
+  		console.log('phone number :' + $scope.phoneNumber);*/
 
-  		var result = userService.createUser($scope.emailSignUp, $scope.passwordSignUp);
+  		userService.createUser($scope.emailSignUp, $scope.passwordSignUp,$scope.yourName,$scope.phoneNumber );
 
   	};
+
+    $scope.signInWithFaceBook = function(){
+      userService.signInWithOtherProvider('facebook');
+    };
+
+    $scope.signInWithGoogle = function(){
+      userService.signInWithOtherProvider('google');
+    };
+
+    $scope.signInWithTwitter = function(){
+      userService.signInWithOtherProvider('twitter');
+    };
+
 
   	$timeout(function() {
   		$('#horizontalTab').easyResponsiveTabs({

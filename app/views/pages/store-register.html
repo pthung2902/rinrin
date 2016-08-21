@@ -1,0 +1,192 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+
+        <div class="custom-carousel">
+                <div id="carousel1" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img alt="Bootstrap template" src="../images/registration_c.jpg">
+                        <div class="carousel-caption carousel-caption-custom" style="text-align:left" >
+                            <h2>Store Registration</h2>
+                            <p>
+                                Never easier than that ! Just take you <strong>5 mins</strong> to submit the form then join RinRin network and enjoy the service. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img alt="Bootstrap template" src="../images/promotion_c.jpg">
+                        <div class="carousel-caption carousel-caption-custom">
+                            <h2>Spring Promotion <strong>20%</strong> off</h2>
+                            <p>
+                                Hurry up !!! promotion will be ended end on <strong>31/12/2016</strong>. just <strong>800k</strong> for 1 year using service.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img alt="Bootstrap template" src="../images/profit_c.jpg">
+                        <div class="carousel-caption carousel-caption-custom" style="text-align:left;padding-bottom:250px">
+                            <h2>Increase 200% Profit</h2>
+                            <p>
+                                Service charge 1k (VND) for every sucessful transaction will include in the reciept. This service charge will be shared <strong>50/50</strong> with store.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="nav nav-pills nav-justified">
+                    <li data-target="#carousel1" data-slide-to="0" class="active">
+                        <a href="#">Store Registration<small>Attrated propects customer with RinRin</small></a>
+                    </li>
+                    <li data-target="#carousel1" data-slide-to="1">
+                        <a href="#">Promotions<small>The best offer for this Spring</small></a>
+                    </li>
+                    <li data-target="#carousel1" data-slide-to="2">
+                        <a href="#">Profit<small>RinRin share the profit with client</small></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+            <div class="well well-sm white-background">
+                <form class="form-horizontal" method="post">
+                    <fieldset>
+                        <legend class="text-center register-header">Store Register</legend>
+
+                        <!--timeline start -->
+                        <div class="steps-timeline">
+
+                              <div class="steps-one">
+                                <img class="steps-img" src="../images/timeline_d.jpg" alt="Create a new user" />
+                                <h3 class="steps-name">
+                                    Create Account
+                                </h3>
+                              </div>
+
+                              <div class="steps-two">
+                                <img class="steps-img" src="../images/timeline.jpg" alt="Fill in store information" />
+                                <h3 class="steps-name">
+                                  Store Information
+                                </h3>
+                              </div>
+
+                              <div class="steps-three">
+                                <img class="steps-img" src="../images/timeline.jpg" alt="Paayment Infomation" />
+                                <h3 class="steps-name">
+                                  Payment
+                                </h3>
+                              </div>
+
+                        </div>
+                        <!--timeline end-->
+
+
+                        <div class="form-group rinrin-alert">
+                            <span class="col-md-1 col-md-offset-2"></span>
+                            <div class="row col-sm-8 displaystyle-leftborder displaystyle-danger displaystyle-lg">
+                                <strong>Error!</strong> Store name can not be empty !
+                            </div>
+                        </div>
+
+                        <!--start step 1 -->
+                        <div class="step1 padding35">
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                <div class="col-md-8">
+                                    <input id="email" name="email" type="text" required="true" placeholder="Email" class="form-control big-height big-font">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                <div class="col-md-8">
+                                    <input id="password" name="password" required="true" type="password" placeholder="Password" class="form-control big-height big-font">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2"></span>
+                                <div class="col-md-8 ">
+                                    <button id="btn-next-step1" ng-click="step_one_click()" type="button" class="btn btn-primary btn-lg">Next</button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--end step 1 -->
+
+
+                        <!--start step 2 -->
+                        <div class="step2 padding35">
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="storeName" name="store name" type="text" placeholder="Store Name" class="form-control big-height big-font">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control big-height big-font">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="hotline" name="hot line" type="text" placeholder="Hot line" class="form-control big-height big-font">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                            <div class="col-md-8">
+                                <textarea class="form-control" id="maketingText" name="MaketingText" placeholder="Enter your marketing text. It will be used to display to customer once valued customer searching your store." rows="10"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="address" name="address" type="text" placeholder="Address" class="form-control big-height big-font" googleplace ng-model="chosenPlace">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-12" id="map" style="height:500px">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"></span>
+                            <div class="col-md-8">
+                                <div class="checkbox">
+                                    <label style="font-size: 1.5em; padding-left : 0">
+                                    <input type="checkbox" value="" checked="checked"/>
+                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                                    By clicking this button, we agree to sevice term and condition. 
+                                    </label>
+                                </div>  
+                            </div>          
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2"></span>
+                            <div class="col-md-8 ">
+                                <button id= "btn-next-step2" ng-click="step_two_click()" type="button" class="btn btn-primary btn-lg">Next</button>
+                            </div>
+                        </div>
+
+                        </div>
+
+                        <!--end step 2 -->
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
